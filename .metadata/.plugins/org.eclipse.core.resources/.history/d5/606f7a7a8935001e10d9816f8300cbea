@@ -1,0 +1,10 @@
+package java_study.chapter07.sec04;
+
+public class Tv {
+	private int channer;
+	private int volume;
+	private boolean onOff;
+	
+	
+	
+}

@@ -1,0 +1,10 @@
+package java_study.chapter08.sec03;
+
+public class SupersonicAirplaneExample {
+
+	public static void main(String[] args) {
+		SupersonicAirplane sa = new SupersonicAirplane();
+
+	}
+
+}

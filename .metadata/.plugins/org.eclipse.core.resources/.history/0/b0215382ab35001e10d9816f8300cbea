@@ -1,0 +1,10 @@
+package java_study.chapter07.sec08;
+
+public class DmbCellPhone {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

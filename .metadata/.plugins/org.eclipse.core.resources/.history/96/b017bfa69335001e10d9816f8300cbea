@@ -1,0 +1,52 @@
+package java_study.chapter07.sec04;
+
+public class Tv {
+	private int channel;
+	private int volume;
+	private boolean onOff;
+
+	static int count = 0; // 초기값을 주는 것이 관례이다.
+
+	public Tv() {
+		count++;
+		super();
+	}
+
+	public Tv(int channer, int volume, boolean onOff) {
+		super();
+		count++;
+		this.channel = channer;
+		this.volume = volume;
+		this.onOff = onOff;
+	}
+
+	public int getChanner() {
+		return channel;
+	}
+
+	public void setChanner(int channer) {
+		this.channel = channer;
+	}
+
+	public int getVolume() {
+		return volume;
+	}
+
+	public void setVolume(int volume) {
+		this.volume = volume;
+	}
+
+	public boolean isOnOff() {
+		return onOff;
+	}
+
+	public void setOnOff(boolean onOff) {
+		this.onOff = onOff;
+	}
+
+	@Override
+	public String toString() {
+		return "Tv [channer=" + channel + ", volume=" + volume + ", onOff=" + onOff + "]";
+	}
+
+}

@@ -1,0 +1,5 @@
+package java_study.chapter07.sec07;
+
+public class Singleton {
+
+}
