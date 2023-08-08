@@ -1,0 +1,17 @@
+package java_study.chapter05;
+
+public class ArrayEx8 {
+
+	public static void main(String[] args) {
+		int[] jumsu = new int[5];
+
+		ArrayEx7.getNumbers("¡°ºˆ >> ", jumsu);
+		ArrayEx7.showNumbers(jumsu);
+		int sum = ArrayEx7.addAll(jumsu);
+
+		double avg = (double) sum / jumsu.length;
+
+		System.out.println("∆Ú±’¿∫: " + avg);
+	}
+
+}

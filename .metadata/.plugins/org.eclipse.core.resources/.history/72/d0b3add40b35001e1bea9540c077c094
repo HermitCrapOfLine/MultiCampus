@@ -1,0 +1,13 @@
+package java_study.chapter06.sec5;
+
+public class Cafe {
+	String name; // ¸â¹öº¯¼ö
+	String menu;
+	int price;
+
+	@Override
+	public String toString() {
+		return "Cafe [name=" + name + ", menu=" + menu + ", price=" + price + "]";
+	}
+
+}

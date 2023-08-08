@@ -1,0 +1,17 @@
+package java_study;
+
+import java.util.Scanner;
+
+public class Review {
+
+	public static void main(String[] args) {
+		String s = "오늘도 고생했어.";
+		int a = 8;
+		double b = 2.25147;
+		
+		System.out.printf("%s 7전 %a기 ! %f", s, a, b);
+		System.out.println(s + " 7전 " + b + "기 ! " + b);
+	
+	}
+
+}

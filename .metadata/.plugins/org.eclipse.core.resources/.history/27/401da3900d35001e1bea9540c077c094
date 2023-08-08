@@ -1,0 +1,26 @@
+package java_study.chapter06.sec5;
+
+public class Cafe {
+	private String name; // 멤버변수
+	private String menu;
+	private int price;
+
+	
+	public String getMenu() {
+		return menu;
+	}
+
+
+	public void setMenu(String menu) {
+		this.menu = menu;
+	}
+
+
+
+
+	@Override
+	public String toString() { // 메서드
+		return "Cafe [name=" + name + ", menu=" + menu + ", price=" + price + "]";
+	}
+
+}

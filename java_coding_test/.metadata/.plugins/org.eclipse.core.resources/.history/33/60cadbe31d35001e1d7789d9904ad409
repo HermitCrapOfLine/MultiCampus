@@ -1,0 +1,32 @@
+package baekjun;
+
+import java.util.Scanner;
+
+public class Main {
+	
+	public String solution(String str) {
+		String answer = "";
+		
+		String s = str.replaceAll("[^0-9]", "");
+		
+		for(int i = 0; i < s.length() - 1; i++) {
+			if(s.substring(i, i+1).equals("0")) {
+				s = s.replace(s.substring(i,i+1), "");
+			}else {
+				answer = s;
+			}
+		}
+		
+		return answer;
+		
+		
+	}
+	
+	public static void main(String[] args) {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		String str = kb.nextLine();
+		System.out.println(T.solution(str));
+	}
+
+}

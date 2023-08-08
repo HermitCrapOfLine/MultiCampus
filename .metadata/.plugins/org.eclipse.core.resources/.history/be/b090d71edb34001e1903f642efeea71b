@@ -1,0 +1,17 @@
+package java_study.chapter06.sec02;
+
+public class MyRoom {
+
+	public static void main(String[] args) {
+		TV myTv = new TV();
+		myTv.brand = "LG";
+		myTv.price = 1000000;
+		myTv.size = 60;
+		myTv.store = "¾Æ¸¶Á¸";
+		
+		myTv.turnOn();
+		myTv.changeChannel();
+		myTv.turnOff();
+	}
+
+}

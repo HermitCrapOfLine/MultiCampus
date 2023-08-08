@@ -1,0 +1,19 @@
+package java_study.chapter06.sec5;
+
+public class Account {
+
+	public static void main(String[] args) {
+		String name;
+		String accountName;
+		int balance;
+		
+		public svoid deposit() {
+			System.out.println( name + "이 " + balance + "원을 입금하다.");
+		}
+		
+		public void withdraw() {
+			System.out.println( name + "이 " + accountName + "에서 입금하다.");
+		}
+	}
+
+}

@@ -1,0 +1,17 @@
+package java_study.chapter07.sec02;
+
+public class AccountUse {
+
+	public static void main(String[] args) {
+		Account my1 = new Account("홍길동", "001224", 50000);
+		System.out.println(my1);
+		System.out.println(my1.toString());
+
+		Account my2 = new Account("고길동", "030807", 50000);
+		System.out.println(my2);
+
+//		Account my3 = new Account(); // 에러 
+
+	}
+
+}

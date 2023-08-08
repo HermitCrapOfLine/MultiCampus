@@ -1,0 +1,10 @@
+package java_study.chapter06.sec5;
+
+public class Cafe {
+	String name;   // ¸â¹öº¯¼ö
+    String menu;
+    int price;
+    
+    
+
+}

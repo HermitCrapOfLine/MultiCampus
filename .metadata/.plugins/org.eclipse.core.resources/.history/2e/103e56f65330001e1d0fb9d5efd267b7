@@ -1,0 +1,13 @@
+package java_study;
+
+import java.util.Scanner;
+
+public class Review {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String str = sc.next();
+		System.out.println("¾È³ç ¹Ý°¡¿ö");
+	}
+
+}

@@ -1,0 +1,10 @@
+package java_study.chapter07.sec01;
+
+public class AccountUse {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

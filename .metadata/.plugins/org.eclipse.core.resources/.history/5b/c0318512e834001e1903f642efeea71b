@@ -1,0 +1,17 @@
+package java_study.chapter06.sec5;
+
+public class Account {
+
+	String name;
+	String accountName;
+	int balance;
+
+	public void deposit(int amount) { // amount : 입금액
+		balance += amount;
+		System.out.println("%s 이 %d원을 입금하다. \n", name, amount);
+	}
+
+	public void withdraw() {
+		System.out.println(name + "이 " + accountName + "에서 입금하다.");
+	}
+}

@@ -1,0 +1,32 @@
+package baekjun;
+
+import java.util.Scanner;
+
+public class Main {
+	static boolean[] alphabet = new boolean[26];
+	
+	public String solution(String str) {
+		String answer = "";
+		char[] cArr = str.toCharArray();
+		
+		for (int i = 0; i < str.length(); i++) {
+			if (!alphabet[cArr[i] - 'a']) {
+				alphabet[cArr[i] - 'a'] = true;
+				answer += String.valueOf((char)cArr[i] - 'a');
+			}else {
+				continue;
+			}
+		}
+		
+		return answer;
+		
+	}
+	
+	public static void main(String[] args) {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		String str = kb.next();
+		System.out.println(T.solution(str));
+	}
+
+}

@@ -1,0 +1,11 @@
+package java_study.chapter04;
+
+import java.util.Scanner;
+
+public class ConsoleTest {
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+	}
+
+}

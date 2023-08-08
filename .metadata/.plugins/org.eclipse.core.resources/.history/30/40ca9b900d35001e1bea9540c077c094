@@ -1,0 +1,13 @@
+package java_study.chapter06.sec5;
+
+public class Cafe {
+	String name; // 멤버변수
+	String menu;
+	int price;
+
+	@Override
+	public String toString() { // 메서드
+		return "Cafe [name=" + name + ", menu=" + menu + ", price=" + price + "]";
+	}
+
+}

@@ -1,0 +1,29 @@
+package baekjun;
+
+import java.util.Scanner;
+
+
+public class LongestWorld_5637
+	{
+	public static String solution(String str) {
+		String answer = "";
+		int m = Integer.MAX_VALUE;
+		String[] sArr = str.split(" ");
+		for (String x : sArr) {
+			int len = x.length();
+			if (len < m) {
+				m = len;
+				answer = x;
+			}
+		}
+		
+		return answer;
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String kb = sc.nextLine();
+		System.out.print(solution(kb));
+	}
+
+	}
