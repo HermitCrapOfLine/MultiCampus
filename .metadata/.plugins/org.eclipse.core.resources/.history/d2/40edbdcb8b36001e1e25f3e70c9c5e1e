@@ -1,0 +1,7 @@
+package java_study.chapter10;
+
+public class ThrowsExample {
+	public static void main(String[] args) {
+
+	}
+}

@@ -1,0 +1,10 @@
+package practice.package01;
+
+public class ProtectedEx {
+
+	public ProtectedEx() {
+		
+	}
+	
+
+}

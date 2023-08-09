@@ -1,0 +1,9 @@
+package java_study.chapter08.sec08;
+
+public class B extends A {
+	private String a;
+
+	public B() {
+		super.a = "abcd";
+	}
+}

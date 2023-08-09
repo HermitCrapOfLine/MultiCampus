@@ -1,0 +1,21 @@
+package practice;
+
+public class Member {
+	// 필드 (멤버변수)
+	private String name;
+	private int age;
+	private boolean 성별;
+
+	// 생성자
+	public Member() {
+		super();
+	}
+
+	// 메서드
+	public void showMemberName() {
+		System.out.println(this.name);
+	}
+	String
+	
+}
+

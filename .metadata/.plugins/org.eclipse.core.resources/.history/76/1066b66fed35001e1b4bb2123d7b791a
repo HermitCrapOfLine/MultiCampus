@@ -1,0 +1,7 @@
+package practice.package02;
+
+public class ProtectedEx2 {
+
+	String s = ProtedtedEx.flower;
+
+}

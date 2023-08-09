@@ -1,0 +1,12 @@
+package practice.sec02;
+
+public class Mother {
+
+	class Son {
+
+	}
+
+	public static void main(String[] args) {
+
+	}
+}

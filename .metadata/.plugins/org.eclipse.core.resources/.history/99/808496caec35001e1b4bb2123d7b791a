@@ -1,0 +1,8 @@
+package practice.package01;
+
+public class ProtectedEx {
+	
+	protected String secret;
+	protected String flower;
+	
+}

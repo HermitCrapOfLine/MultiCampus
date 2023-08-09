@@ -1,0 +1,6 @@
+package java_study.chapter08.sec08;
+
+public class B extends A {
+
+	
+}

@@ -1,0 +1,14 @@
+package practice.sec02;
+
+public class Son extends Mother {
+
+	@Override
+	void eatVegitable() {
+		System.out.println("거절한다.");
+	}
+
+	void love() {
+		System.out.println("사랑합니다.");
+	}
+
+}

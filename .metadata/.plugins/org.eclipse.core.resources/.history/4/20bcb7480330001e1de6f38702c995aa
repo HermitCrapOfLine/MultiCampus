@@ -1,9 +1,0 @@
-package java_study.chapter04;
-
-public class ConsoleTest {
-
-	public static void main(String[] args) {
-		Scanner sc = new Scanner(System.in);
-	}
-
-}

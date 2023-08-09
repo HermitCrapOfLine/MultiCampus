@@ -1,0 +1,11 @@
+package practice.package02;
+
+import practice.package01.ProtectedEx;
+
+public class ProtectedEx2 {
+
+	public ProtectedEx2() {
+		ProtectedEx ex1 = new ProtectedEx();
+	}
+
+}

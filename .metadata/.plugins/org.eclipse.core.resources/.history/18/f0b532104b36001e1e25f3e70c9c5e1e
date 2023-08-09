@@ -1,0 +1,11 @@
+package practice.package02;
+
+import practice.package01.ProtectedEx;
+
+public class ProtectedSub extends ProtectedEx {
+
+	public ProtectedSub() {
+		super();
+	}
+
+}

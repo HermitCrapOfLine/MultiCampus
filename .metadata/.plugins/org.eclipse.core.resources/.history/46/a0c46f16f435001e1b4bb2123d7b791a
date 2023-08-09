@@ -1,0 +1,27 @@
+package practice.sec02;
+
+public class Mother {
+
+	void eatFood() {
+		System.out.println("¹ä ´ÙÂ÷·È´Ù ¹ä¸Ô¾î¶ó");
+	}
+
+	void eatVegitable() {
+		System.out.println("¾ßÃ¤ ¸Ô¾î¶ó");
+	}
+
+	class Son extends Mother {
+
+		@Override
+		void eatVegitable() {
+			System.out.println("°ÅÀýÇÑ´Ù.");
+		}
+
+		void love() {
+			System.out.println("»ç¶ûÇÕ´Ï´Ù.");
+		}
+	}
+
+
+
+}

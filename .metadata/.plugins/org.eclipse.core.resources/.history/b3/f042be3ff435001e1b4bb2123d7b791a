@@ -1,0 +1,14 @@
+package practice.sec01;
+
+public class StaticUse {
+
+	public static void main(String[] args) {
+		StaticEx st1 = new StaticEx();
+		int a = 10;
+		int b = 5;
+
+		int addResult = StaticEx.add(a, b);
+		int minusResult = st1.minus(a, b);
+	}
+
+}

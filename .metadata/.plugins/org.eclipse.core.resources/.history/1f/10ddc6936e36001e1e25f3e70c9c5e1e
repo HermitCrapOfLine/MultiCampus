@@ -1,0 +1,10 @@
+package java_study.chapter08.sec08;
+
+public class Dog extends Animal {
+
+	@Override
+	public void sound() {
+		System.out.println("¿Ð¿Ð");
+	}
+
+}

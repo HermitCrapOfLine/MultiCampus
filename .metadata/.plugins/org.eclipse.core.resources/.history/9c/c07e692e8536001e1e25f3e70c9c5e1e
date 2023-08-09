@@ -1,0 +1,10 @@
+package java_study.chapter10;
+
+public class CatchByExceptionKindExample {
+
+	public static void main(String[] args) {
+		System.out.println(args);
+		
+	}
+
+}

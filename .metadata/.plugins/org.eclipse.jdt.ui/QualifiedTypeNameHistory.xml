@@ -6,5 +6,8 @@
     <fullyQualifiedTypeName name="java.util.Date"/>
     <fullyQualifiedTypeName name="javax.imageio.metadata.IIOMetadataFormatImpl"/>
     <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
+    <fullyQualifiedTypeName name="java_study.chapter07.sec07.Singleton"/>
+    <fullyQualifiedTypeName name="java_study.chapter08.sec03.SupersonicAirplane"/>
+    <fullyQualifiedTypeName name="practice.package01.ProtectEx"/>
     <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>

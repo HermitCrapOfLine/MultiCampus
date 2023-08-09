@@ -1,0 +1,13 @@
+package practice.sec02;
+
+public class Family {
+
+	public static void main(String[] args) {
+
+		Mother m = new Son();
+		m.eatFood();
+		m.eatVegitable();
+//		m.love();
+	}
+
+}
