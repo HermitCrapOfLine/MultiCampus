@@ -1,0 +1,6 @@
+package practice.AbstractEx;
+
+public abstract class HowCryAnimal {
+
+	
+}

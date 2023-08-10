@@ -1,0 +1,11 @@
+package practice.AbstractEx;
+
+public class Goat extends HowCryAnimal {
+
+	@Override
+	void cry() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

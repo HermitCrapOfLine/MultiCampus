@@ -1,0 +1,20 @@
+package practice.inter;
+
+public interface Game {
+
+	int MAX_SCORE = 5;
+
+	void startGame();
+
+	void endGame();
+
+	void getScore(int score);
+
+	default void penalty(boolean disadvantage) {
+		if (disadvantage) {
+			System.out.println("경고입니다..");
+		} else {
+			System.out.println("그대로 진행하세요");
+		}
+	}
+}

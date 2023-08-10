@@ -1,0 +1,12 @@
+package java_study.chapter11.sec06;
+
+public class StringCharAtExample {
+
+	public static void main(String[] args) {
+		String ssn = "010624-1234123";
+
+		boolean a = ssn.startsWith("23");
+		System.out.println(a);
+	}
+
+}

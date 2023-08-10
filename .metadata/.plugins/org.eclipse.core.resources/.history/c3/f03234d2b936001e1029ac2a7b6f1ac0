@@ -1,0 +1,22 @@
+package practice.inter;
+
+public class bPlayer implements Game {
+
+	int score = 0;
+
+	@Override
+	public void startGame() {
+		System.out.println("게임을 켭니다");
+	}
+
+	@Override
+	public void endGame() {
+		System.out.println("게임을 끕니다.");
+	}
+
+	@Override
+	public void getScore(int score) {
+
+	}
+
+}

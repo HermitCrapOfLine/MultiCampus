@@ -1,0 +1,12 @@
+package practice.AbstractEx;
+
+public class Frog extends HowCryAnimal{
+
+	@Override
+	void cry() {
+		// TODO Auto-generated method stub
+		
+	}
+	
+	
+}
