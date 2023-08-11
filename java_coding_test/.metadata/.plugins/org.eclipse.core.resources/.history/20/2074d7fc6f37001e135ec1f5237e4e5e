@@ -1,0 +1,34 @@
+package baekjun;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+public class Main {
+	
+	public String solution(String str, int num) {
+		String answer = "";
+		char[] c = str.toCharArray();
+		String[] number = new String[num];
+		for (int i = 0; i < num; i++) {
+			for (int j = 0; j < str.length(); j++) {
+				if (c[j] == '#') {
+					number[i] += "1";
+				}else {
+					number[i] += "0";
+				}
+			}
+		}
+		
+		return answer; 
+	}
+	
+	public static void main(String[] args) {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		int number = kb.nextInt();
+		String str = kb.next();
+		
+		System.out.println(T.solution(str, number));
+	}
+
+}

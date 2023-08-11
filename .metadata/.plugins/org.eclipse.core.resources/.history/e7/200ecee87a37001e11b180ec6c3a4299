@@ -1,0 +1,30 @@
+package practice._08_10_study;
+
+public class Customer {
+	String name;
+
+	
+	public Customer(String name) {
+		super();
+		this.name = name;
+	}
+
+
+	@Override
+	public boolean equals(Object obj) { // Object obj 에는 모든 클래스가 대입이 가능하다.
+		if (obj instanceof Customer) { // Customer 클래스인지 확인 한다.
+
+			Customer customer = (Customer) obj;
+			/*
+			 * obj에는 name 멤버 변수가 존재하지 않기 때문에 
+			 * name 멤버 변수를 사용하기 위해 obj를 Customer로 다운 캐스팅 했다.
+			 */
+
+			if (name.equals(customer.name)) {
+				return true;
+			}
+		}
+		return false;
+	}
+
+}

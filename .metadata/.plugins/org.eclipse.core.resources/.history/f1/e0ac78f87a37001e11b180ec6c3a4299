@@ -1,0 +1,11 @@
+package practice._08_10_study;
+
+public class CustomerEx {
+
+	public static void main(String[] args) {
+		Object obj1 = new Customer("¼Ò·Î");
+		Object obj2 = new Customer("Äû¸®");
+
+	}
+
+}

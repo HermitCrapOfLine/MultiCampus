@@ -1,0 +1,11 @@
+package practice._08_10_study;
+
+public class Customer {
+	String name;
+
+	public Customer(String name) {
+		super();
+		this.name = name;
+	}
+
+}
