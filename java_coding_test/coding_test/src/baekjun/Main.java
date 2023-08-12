@@ -1,29 +1,36 @@
 package baekjun;
 
+import java.util.ArrayList;
 import java.util.Scanner;
+
 
 public class Main {
 	
-	public String solution(String str, int num) {
-		String answer = "";
-		for (int i = 0; i < num; i++) {
-			String tmp = str.substring(0, 7).replace('#', '1').replace('*', '0');
-			int number = Integer.parseInt(tmp, 2);
-			str = str.substring(7);
-			answer += (char)number;
+	
+	public ArrayList<Integer> solution(int n, int[] arr) {
+		ArrayList<Integer> answer = new ArrayList<>();
+		answer.add(arr[0]);
+		for (int i = 1; i < n; i++) {
+			if(arr[i] > arr[i-1]) answer.add(arr[i]);
 		}
 		
 		
 		return answer; 
 	}
 	
-	public static void main(String[] args) {
+	public static void main(String[] args) throws Exception {
 		Main T = new Main();
 		Scanner kb = new Scanner(System.in);
-		int number = kb.nextInt();
-		String str = kb.next();
+		int n = kb.nextInt();
+		int[] arr = new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i] = kb.nextInt();
+		}
 		
-		System.out.println(T.solution(str, number));
+		for (int x : T.solution(n, arr)) {
+			System.out.print(x + " ");
+		}
+	
 	}
 
 }
