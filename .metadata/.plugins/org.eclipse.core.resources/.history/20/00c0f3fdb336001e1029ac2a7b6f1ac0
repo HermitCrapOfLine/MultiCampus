@@ -1,7 +1,0 @@
-package practice.AbstractEx;
-
-public abstract class HowCryAnimal {
-
-	abstract void cry();
-
-}

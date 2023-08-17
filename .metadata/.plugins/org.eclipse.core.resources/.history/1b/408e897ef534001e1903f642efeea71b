@@ -1,9 +1,0 @@
-package java_study.chapter07.sec02;
-
-public class myAccount {
-
-	public static void main(String[] args) {
-		Account my1 = new Account("ȫ�浿", "950205", 50000);
-	}
-
-}

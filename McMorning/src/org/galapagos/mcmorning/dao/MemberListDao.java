@@ -3,21 +3,24 @@ package org.galapagos.mcmorning.dao;
 import java.util.ArrayList;
 import java.util.List;
 
+import org.galapagos.mcmorning.util.Serializer;
 import org.galapagos.mcmorning.vo.Member;
 
 import lombok.Getter;
 
 //Member에 대한 CRUD
 public class MemberListDao implements MemberDao {
+	static final String FILE_PATH = "c:/temp/member_list.dat";
+
 	@Getter
 	private List<Member> memberList;
 
 	public MemberListDao() {
 		memberList = new ArrayList<Member>();
-		memberList.add(new Member("id1", "7345", "김개똥", "구글"));
-		memberList.add(new Member("id2", "8345", "나개똥", "네이버"));
-		memberList.add(new Member("id3", "9345", "박개똥", "다음"));
-		memberList.add(new Member("id4", "2345", "이개똥", "파란"));
+//		memberList.add(new Member("id1", "7345", "김개똥", "구글"));
+//		memberList.add(new Member("id2", "8345", "나개똥", "네이버"));
+//		memberList.add(new Member("id3", "9345", "박개똥", "다음"));
+//		memberList.add(new Member("id4", "2345", "이개똥", "파란"));
 	}
 
 	@Override
@@ -95,5 +98,19 @@ public class MemberListDao implements MemberDao {
 
 		return list;
 
+	}
+
+	@Override
+	public void save() throws Exception {
+		// memberList 직렬화 하면되고,
+		Serializer.save(FILE_PATH, memberList);
+
+	}
+
+	@Override
+	public void load() throws Exception {
+		// memberList 역직렬화 한다.
+		memberList = (List<Member>) Serializer.load(FILE_PATH);
+		System.out.println(memberList);
 	}
 }

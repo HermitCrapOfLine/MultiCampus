@@ -1,5 +1,0 @@
-package java_study.chapter10;
-
-public class BalanceInsufficientException {
-
-}

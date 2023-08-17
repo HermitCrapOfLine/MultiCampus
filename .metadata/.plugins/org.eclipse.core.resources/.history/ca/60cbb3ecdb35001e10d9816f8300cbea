@@ -1,9 +1,0 @@
-package java_study.chapter08.sec04;
-
-public class ChildExample {
-
-	public static void main(String[] args) {
-		
-	}
-
-}

@@ -1,21 +1,25 @@
 package baekjun;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
 
 public class Main {
 	
 	
-	public ArrayList<Integer> solution(int n, int[] arr) {
-		ArrayList<Integer> answer = new ArrayList<>();
-		answer.add(arr[0]);
-		for (int i = 1; i < n; i++) {
-			if(arr[i] > arr[i-1]) answer.add(arr[i]);
+	public int solution(int n, int[] arr) {
+		int answer = 0;
+		int count = 0;
+		int max = 0;
+		for (int i = 0; i < n; i++) {
+			if (arr[i] > max) {
+				max = arr[i];
+				count++;
+			}
 		}
+		answer = count;
 		
+		return answer;
 		
-		return answer; 
 	}
 	
 	public static void main(String[] args) throws Exception {
@@ -27,10 +31,7 @@ public class Main {
 			arr[i] = kb.nextInt();
 		}
 		
-		for (int x : T.solution(n, arr)) {
-			System.out.print(x + " ");
-		}
-	
+		System.out.println(T.solution(n, arr));
 	}
 
 }
