@@ -6,32 +6,32 @@ import java.util.Scanner;
 public class Main {
 	
 	
-	public int solution(int n, int[] arr) {
-		int answer = 0;
-		int count = 0;
-		int max = 0;
+	public String[] solution(int n, int[] arr1, int[] arr2) {
+		String[] answer = new String[n];
 		for (int i = 0; i < n; i++) {
-			if (arr[i] > max) {
-				max = arr[i];
-				count++;
-			}
-		}
-		answer = count;
-		
+			if(a[i] == b[i]) answer += "D";
+			
 		return answer;
-		
 	}
 	
 	public static void main(String[] args) throws Exception {
 		Main T = new Main();
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
-		int[] arr = new int[n];
+		int[] arr1 = new int[n];
+		int[] arr2 = new int[n];
+		
 		for (int i = 0; i < n; i++) {
-			arr[i] = kb.nextInt();
+			arr1[i] = kb.nextInt();
 		}
 		
-		System.out.println(T.solution(n, arr));
+		for (int i = 0; i < n; i++) {
+			arr2[i] = kb.nextInt();
+		}
+		
+		for (String s : T.solution(n, arr1, arr2)) {
+			System.out.println(s);
+		}
 	}
 
 }

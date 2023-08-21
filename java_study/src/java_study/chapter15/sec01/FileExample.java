@@ -26,7 +26,7 @@ public class FileExample {
 //		File file2 = new File("C:/Temp/file2.txt");
 //		File file3 = new File(new URI("file:///C:/Temp/file3.txt"));
 
-//		if (dir.exists() == false) {
+//		if (dir.exists() == false) 
 //			System.out.println(dir + " 존재하지 않음");
 //			dir.mkdirs();
 //		}
