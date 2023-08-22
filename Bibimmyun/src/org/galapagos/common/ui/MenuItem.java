@@ -1,6 +1,6 @@
-package org.galapagos.common.cli.ui;
+package org.galapagos.common.ui;
 
-import org.galapagos.command.Command;
+import org.galapagos.common.command.Command;
 
 // 1개의 메뉴를 나타냄
 public class MenuItem {

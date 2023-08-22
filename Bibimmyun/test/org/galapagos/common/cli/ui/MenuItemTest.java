@@ -1,8 +1,9 @@
 package org.galapagos.common.cli.ui;
 
-import org.galapagos.command.ExitCommand;
-import org.galapagos.command.ListCommand;
-import org.galapagos.command.SearchCommand;
+import org.galapagos.bibimmyun.command.ExitCommand;
+import org.galapagos.bibimmyun.command.ListCommand;
+import org.galapagos.bibimmyun.command.SearchCommand;
+import org.galapagos.common.ui.MenuItem;
 
 public class MenuItemTest {
 

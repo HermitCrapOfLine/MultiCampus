@@ -40,4 +40,7 @@
     <fullyQualifiedTypeName name="java_study.chapter15.sec03.Serializer"/>
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.util.Serializer"/>
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.vo.Member"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="org.galapagos.common.cli.Input"/>
+    <fullyQualifiedTypeName name="org.galapagos.command.Command"/>
 </qualifiedTypeNameHistroy>

@@ -6,11 +6,11 @@ import java.util.Scanner;
 public class Main {
 	
 	
-	public String[] solution(int n, int[] arr1, int[] arr2) {
-		String[] answer = new String[n];
+	public int[] solution(int n, int[] arr1) {
+		int[] answer = new int[n];
 		for (int i = 0; i < n; i++) {
-			if(a[i] == b[i]) answer += "D";
-			
+			answer[i] = arr1[i];
+		}
 		return answer;
 	}
 	
@@ -18,20 +18,18 @@ public class Main {
 		Main T = new Main();
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
-		int[] arr1 = new int[n];
-		int[] arr2 = new int[n];
-		
-		for (int i = 0; i < n; i++) {
-			arr1[i] = kb.nextInt();
+		int[] arr = new int[n];
+		arr[0] = 1;
+		arr[1] = 1;
+		for (int i = 2; i < n; i++) {
+			arr[i] = arr[i-1] + arr[i-2];
 		}
 		
-		for (int i = 0; i < n; i++) {
-			arr2[i] = kb.nextInt();
+		for(int x : T.solution(n, arr)) {
+			System.out.print(x + " ");
 		}
 		
-		for (String s : T.solution(n, arr1, arr2)) {
-			System.out.println(s);
 		}
 	}
 
-}
+
