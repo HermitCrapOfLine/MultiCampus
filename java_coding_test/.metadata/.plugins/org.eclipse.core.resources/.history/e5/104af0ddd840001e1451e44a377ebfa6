@@ -1,0 +1,28 @@
+package baekjun;
+
+import java.util.Scanner;
+
+
+public class Main {
+	
+	
+	public int solution(int n, int[] arr1) {
+		int answer;
+		
+		return answer;
+	}
+	
+	public static void main(String[] args) throws Exception {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		int n = kb.nextInt();
+		int[] arr = new int[n];
+		for (int i = 1; i < n; i++) {
+			arr[i] = i + 1;
+		}
+	
+		
+		}
+	}
+
+
