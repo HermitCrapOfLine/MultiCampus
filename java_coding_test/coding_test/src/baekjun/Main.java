@@ -1,23 +1,22 @@
 package baekjun;
 
+import java.util.ArrayList;
 import java.util.Scanner;
 
 
 public class Main {
 	
-	
-	public int solution(int n) {
+	public int solution(int n, int[] arr) {
 		int answer = 0;
-		int[] ch = new int[n+1];
-		for (int i = 2; i <= n; i++) {
-			if (ch[i] == 0) {
-				answer++;
-				for (int j = i; j <= n; j= j+i) {
-					ch[j] = 1;
-				}
+		int count = 0;
+		for (int x : arr) {
+			if (x == 1) {
+				count++;
+				answer += count;
+			}else {
+				count = 0;
 			}
 		}
-		
 		return answer;
 	}
 	
@@ -25,7 +24,13 @@ public class Main {
 		Main T = new Main();
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
-		System.out.println(T.solution(n));
+		int[] arr = new int[n];
+		for (int i = 0; i < n; i++) {
+			arr[i] = kb.nextInt();
+		}
+		System.out.println(T.solution(n, arr));
+		
+		
 		
 		}
 	}

@@ -1,5 +1,8 @@
-select * from scott.dept;
+-- 국내: USER_TBL, USER_VIEW
+-- 영어권: 복수형
 
+
+DROP TABLE USERS;
 CREATE TABLE USERS(
 	ID VARCHAR2(12) PRIMARY KEY,
 	PASSWORD VARCHAR2(12) NOT NULL,
@@ -18,4 +21,4 @@ VALUES('member', 'member123', '일반회원', 'USER');
 
 COMMIT
 
-SELECT * FROM USER;
+SELECT * FROM USERS;

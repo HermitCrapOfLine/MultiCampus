@@ -13,12 +13,7 @@
     <fullyQualifiedTypeName name="java.util.Arrays"/>
     <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="lombok.experimental.FieldNameConstants"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.Setter"/>
-    <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.vo.Member1"/>
     <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
@@ -41,6 +36,22 @@
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.util.Serializer"/>
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.vo.Member"/>
     <fullyQualifiedTypeName name="java.lang.Integer"/>
-    <fullyQualifiedTypeName name="org.galapagos.common.cli.Input"/>
     <fullyQualifiedTypeName name="org.galapagos.command.Command"/>
+    <fullyQualifiedTypeName name="java.sql.DriverManager"/>
+    <fullyQualifiedTypeName name="java.sql.Statement"/>
+    <fullyQualifiedTypeName name="lombok.Getter"/>
+    <fullyQualifiedTypeName name="lombok.Setter"/>
+    <fullyQualifiedTypeName name="lombok.ToString"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="java.sql.Connection"/>
+    <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
+    <fullyQualifiedTypeName name="java.sql.SQLException"/>
+    <fullyQualifiedTypeName name="jdbc_ex.domain.UserVO"/>
+    <fullyQualifiedTypeName name="jdbc_ex.common.JDBCUtil"/>
+    <fullyQualifiedTypeName name="org.galapagos.common.ui.MenuItem"/>
+    <fullyQualifiedTypeName name="jdbc_ex.dao.UserDAOImp1"/>
+    <fullyQualifiedTypeName name="org.galapagos.common.cli.Input"/>
+    <fullyQualifiedTypeName name="org.galapagos.common.ui.Application"/>
 </qualifiedTypeNameHistroy>

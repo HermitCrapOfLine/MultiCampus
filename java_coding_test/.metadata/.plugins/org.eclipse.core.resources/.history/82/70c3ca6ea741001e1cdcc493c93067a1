@@ -1,0 +1,32 @@
+package baekjun;
+
+import java.util.Scanner;
+
+
+public class Main {
+	
+	
+	public int solution(int n) {
+		int answer = 0;
+		int[] ch = new int[n+1];
+	
+		return answer;
+	}
+	
+	public static void main(String[] args) throws Exception {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		int n = kb.nextInt();
+		int[] arr = new int[n];
+		for (int i = 0; i < arr.length; i++) {
+			String s = new StringBuilder(kb.next()).reverse().toString();
+			arr[i] = Integer.parseInt(s);
+		}
+		
+		System.out.println(Math.sqrt(arr[8]));
+		
+		
+		
+		}
+	}
+
