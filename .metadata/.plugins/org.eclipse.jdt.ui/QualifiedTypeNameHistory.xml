@@ -7,7 +7,6 @@
     <fullyQualifiedTypeName name="java_study.chapter07.sec07.Singleton"/>
     <fullyQualifiedTypeName name="java_study.chapter08.sec03.SupersonicAirplane"/>
     <fullyQualifiedTypeName name="practice.package01.ProtectEx"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
     <fullyQualifiedTypeName name="java.util.List"/>
     <fullyQualifiedTypeName name="java.util.Arrays"/>
@@ -42,16 +41,22 @@
     <fullyQualifiedTypeName name="lombok.Getter"/>
     <fullyQualifiedTypeName name="lombok.Setter"/>
     <fullyQualifiedTypeName name="lombok.ToString"/>
-    <fullyQualifiedTypeName name="lombok.Data"/>
-    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
-    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
     <fullyQualifiedTypeName name="java.sql.Connection"/>
     <fullyQualifiedTypeName name="java.sql.PreparedStatement"/>
     <fullyQualifiedTypeName name="java.sql.SQLException"/>
     <fullyQualifiedTypeName name="jdbc_ex.domain.UserVO"/>
     <fullyQualifiedTypeName name="jdbc_ex.common.JDBCUtil"/>
-    <fullyQualifiedTypeName name="org.galapagos.common.ui.MenuItem"/>
     <fullyQualifiedTypeName name="jdbc_ex.dao.UserDAOImp1"/>
-    <fullyQualifiedTypeName name="org.galapagos.common.cli.Input"/>
+    <fullyQualifiedTypeName name="lombok.Builder"/>
+    <fullyQualifiedTypeName name="org.galapagos.jelly.vo.TravelVO"/>
+    <fullyQualifiedTypeName name="lombok.Data"/>
+    <fullyQualifiedTypeName name="lombok.NoArgsConstructor"/>
+    <fullyQualifiedTypeName name="lombok.AllArgsConstructor"/>
+    <fullyQualifiedTypeName name="org.galapagos.jelly.common.JDBCUtil"/>
     <fullyQualifiedTypeName name="org.galapagos.common.ui.Application"/>
+    <fullyQualifiedTypeName name="org.galapagos.common.ui.MenuItem"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="org.galapagos.jelly.dao.TravelDaoImp1"/>
+    <fullyQualifiedTypeName name="org.galapagos.jelly.vo.Region"/>
+    <fullyQualifiedTypeName name="org.galapagos.common.cli.Input"/>
 </qualifiedTypeNameHistroy>
