@@ -6,19 +6,21 @@ import java.util.Scanner;
 
 public class Main {
 	
-	public int solution(int n, int[] arr) {
-		int answer = 0;
-		int count = 0;
-		for (int x : arr) {
-			if (x == 1) {
-				count++;
-				answer += count;
-			}else {
-				count = 0;
+	public int[] solution(int n, int[] arr) {
+		int[] answer = new int[n];
+		for (int i = 0; i < n; i++) {
+			int cnt = 1;
+			for (int j = 0; j < n; j++) {
+					if(arr[i] < arr[j]) {
+						cnt++;
+					}
+				}
+			answer[i] = cnt;
 			}
-		}
 		return answer;
-	}
+		}
+		
+
 	
 	public static void main(String[] args) throws Exception {
 		Main T = new Main();
@@ -28,10 +30,10 @@ public class Main {
 		for (int i = 0; i < n; i++) {
 			arr[i] = kb.nextInt();
 		}
-		System.out.println(T.solution(n, arr));
-		
-		
-		
+
+		for (int x : T.solution(n, arr)) {
+			System.out.print((x + 1) + " ");
 		}
 	}
 
+}

@@ -1,5 +1,6 @@
 package org.galapagos.common.cli;
 
+import java.util.List;
 import java.util.Scanner;
 
 public class Input {
@@ -45,6 +46,17 @@ public class Input {
 		return answer.equalsIgnoreCase("y");
 
 		// return answer.isEmpty() ? defaultValue : answer.equalsIgnoreCase("y");
+	}
+
+	public static <T> T select(String title, List<T> list) {
+		for (int i = 0; i < list.size(); i++) {
+			T el = list.get(i);
+			System.out.printf("%d) %s\n", (i + 1), el);
+		}
+
+		int sel = readInt(title);
+		return list.get(sel - 1);
+
 	}
 
 }

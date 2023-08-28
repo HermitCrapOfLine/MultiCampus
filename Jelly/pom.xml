@@ -5,7 +5,8 @@
 	<groupId>Jelly</groupId>
 	<artifactId>Jelly</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<dependencies><!--
+	<dependencies>
+		<!--
 		https://mvnrepository.com/artifact/com.oracle.database.jdbc/ojdbc11 -->
 		<dependency>
 			<groupId>com.oracle.database.jdbc</groupId>
@@ -18,6 +19,12 @@
 			<artifactId>lombok</artifactId>
 			<version>1.18.28</version>
 			<scope>provided</scope>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.mysql/mysql-connector-j -->
+		<dependency>
+			<groupId>com.mysql</groupId>
+			<artifactId>mysql-connector-j</artifactId>
+			<version>8.1.0</version>
 		</dependency>
 	</dependencies>
 	<build>

@@ -5,7 +5,7 @@ import org.galapagos.jelly.vo.TravelVO;
 class TravelDaoImp1Test2 {
 
 	public static void main(String[] args) {
-		TravelDAO dao = TravelDaoImp1.getInstance();
+		TravelDAO dao = TravelOracleDaoImp1.getInstance();
 
 		TravelVO travel = dao.findById(10);
 		System.out.println(travel);
