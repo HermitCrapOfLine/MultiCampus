@@ -1,10 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="javax.swing.JFrame"/>
-    <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="javax.imageio.metadata.IIOMetadataFormatImpl"/>
-    <fullyQualifiedTypeName name="javax.swing.JOptionPane"/>
-    <fullyQualifiedTypeName name="java_study.chapter07.sec07.Singleton"/>
     <fullyQualifiedTypeName name="java_study.chapter08.sec03.SupersonicAirplane"/>
     <fullyQualifiedTypeName name="practice.package01.ProtectEx"/>
     <fullyQualifiedTypeName name="java.sql.Date"/>
@@ -14,7 +9,6 @@
     <fullyQualifiedTypeName name="lombok.EqualsAndHashCode"/>
     <fullyQualifiedTypeName name="lombok.experimental.FieldNameConstants"/>
     <fullyQualifiedTypeName name="org.galapagos.mcmorning.vo.Member1"/>
-    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
     <fullyQualifiedTypeName name="java.util.Map"/>
     <fullyQualifiedTypeName name="java.util.Set"/>
     <fullyQualifiedTypeName name="javax.swing.text.html.HTMLDocument.Iterator"/>
@@ -59,4 +53,11 @@
     <fullyQualifiedTypeName name="org.galapagos.jelly.dao.TravelDaoImp1"/>
     <fullyQualifiedTypeName name="org.galapagos.jelly.vo.Region"/>
     <fullyQualifiedTypeName name="org.galapagos.common.cli.Input"/>
+    <fullyQualifiedTypeName name="java.net.InetAddress"/>
+    <fullyQualifiedTypeName name="java.rmi.UnknownHostException"/>
+    <fullyQualifiedTypeName name="java.net.ServerSocket"/>
+    <fullyQualifiedTypeName name="java.net.Socket"/>
+    <fullyQualifiedTypeName name="java.io.OutputStream"/>
+    <fullyQualifiedTypeName name="java.lang.StringIndexOutOfBoundsException"/>
+    <fullyQualifiedTypeName name="java_study.echo4.WorkThread"/>
 </qualifiedTypeNameHistroy>

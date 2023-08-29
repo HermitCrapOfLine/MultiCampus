@@ -1,0 +1,76 @@
+package baekjun;
+
+import java.util.ArrayList;
+import java.util.Scanner;
+
+
+public class Main {
+	
+	public int solution(int n, int[][] arr) {
+		int answer = 0;
+		int max = 0;
+		int sum = 0;
+		
+		for (int i = 0; i < n; i++) {
+			sum = 0;
+			for (int j = 0; j < n; j++) {
+				sum += arr[i][j];
+			}
+			if (sum > max) {
+				max = sum;
+			}
+		}
+		
+		for (int i = 0; i < n; i++) {
+			sum = 0;
+			for (int j = 0; j < n; j++) {
+					sum += arr[j][i];
+			}
+			if (sum > max) {
+				max = sum;
+			}
+		}
+		
+		
+		for (int i = 0; i < n; i++) {
+			sum = 0;
+			for (int j = i; j <= i; j++) {
+					sum += arr[i][j];
+			}
+			if (sum > max) {
+				max = sum;
+			}
+		}
+		
+		for (int i = 0; i < n; i++) {
+			sum = 0;
+			for (int j = n-i; j >= n-i; j--) {
+					sum += arr[i][j];
+			}
+			if (sum > max) {
+				max = sum;
+			}
+		}
+		
+		
+		answer = max;
+		return answer;
+		}
+		
+
+	
+	public static void main(String[] args) throws Exception {
+		Main T = new Main();
+		Scanner kb = new Scanner(System.in);
+		int n = kb.nextInt();
+		int[][] arr = new int[n][n];
+		for (int i = 0; i < n; i++) {
+			for (int j = 0; j < n; j++) {
+				arr[i][j] = kb.nextInt();
+			}
+		}
+
+		System.out.println(T.solution(n, arr));
+	}
+
+}

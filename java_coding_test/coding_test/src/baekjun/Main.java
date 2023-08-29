@@ -6,17 +6,28 @@ import java.util.Scanner;
 
 public class Main {
 	
-	public int[] solution(int n, int[] arr) {
-		int[] answer = new int[n];
+	public int solution(int n, int[][] arr) {
+		int answer = Integer.MIN_VALUE;
+		int sum1, sum2;
 		for (int i = 0; i < n; i++) {
-			int cnt = 1;
+			sum1 = sum2 = 0;
 			for (int j = 0; j < n; j++) {
-					if(arr[i] < arr[j]) {
-						cnt++;
-					}
-				}
-			answer[i] = cnt;
+				sum1 += arr[i][j];
+				sum2 += arr[j][i];
 			}
+			answer = Math.max(answer, sum1);
+			answer = Math.max(answer, sum2);
+		}
+		
+		sum1=sum2=0;
+		
+		for (int i = 0; i < n; i++) {
+			sum1 += arr[i][i];
+			sum2 += arr[i][n-i-1];
+		}
+		
+		answer = Math.max(answer, sum1);
+		answer = Math.max(answer, sum2);
 		return answer;
 		}
 		
@@ -26,14 +37,14 @@ public class Main {
 		Main T = new Main();
 		Scanner kb = new Scanner(System.in);
 		int n = kb.nextInt();
-		int[] arr = new int[n];
+		int[][] arr = new int[n][n];
 		for (int i = 0; i < n; i++) {
-			arr[i] = kb.nextInt();
+			for (int j = 0; j < n; j++) {
+				arr[i][j] = kb.nextInt();
+			}
 		}
 
-		for (int x : T.solution(n, arr)) {
-			System.out.print((x + 1) + " ");
-		}
+		System.out.println(T.solution(n, arr));
 	}
 
 }

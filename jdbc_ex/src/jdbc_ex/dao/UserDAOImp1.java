@@ -25,7 +25,7 @@ public class UserDAOImp1 implements UserDAO {
 	// Singleton ∆–≈œ
 	private static UserDAOImp1 dao = new UserDAOImp1();
 
-	private UserDAOImp1() {
+	public UserDAOImp1() {
 
 	}
 
